@@ -11,12 +11,13 @@ RCHN Patient Intake and Scheduling System
 Marcus Webb
 ---
 ## Business Need
-Business Need: RCHN has an aging patient intake and scheduling system across six clinics. 
-Why it Matters:  We can assume that the scheduling system needs to be replaced to have better customer service across the six clinics
+RCHN has an aging patient intake and scheduling system across six clinics. 
+Why it Matters:  The scheduling system needs to be replaced to have better customer service across the six clinics
 ---
 ## Purpose and High-Level Scope
 Project Purpose: Replace the current system with faster access to patients' information to avoid slow scheduling across the six clinics.
 High Level Scope: Provide faster access to patients' intake, scheduling systems, and secure sources to move forward with the project.
 ---
 ## Success Criteria
-Success Criteria: The project will improve patient intake, reduce scheduling conflicts, and improve customer service. Also, it will provide more effective access to information across all six clinics.
+The project will improve patient intake, reduce scheduling conflicts, and improve customer service. Also, it will provide more effective access to information across all six clinics
+---
