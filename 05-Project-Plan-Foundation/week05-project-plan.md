@@ -19,6 +19,7 @@ Mobile application for clinic staff
 
 ### Scope Justification
 Mobile application for clinic staff, this out of scope should be excluded from phase one because it creates a distraction for scope, schedule, cost, resources, and brings a new level of complexity to the project when it isn’t necessary for phrase one in the project.
+
 ---
 ## SMART Objectives
 ### Objective 1
