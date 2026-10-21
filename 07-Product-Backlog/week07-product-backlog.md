@@ -41,7 +41,7 @@ Then, the system must automatically insert the exact clinic name, physical addre
 ## Prioritization Rationale
 ### Must Have Justification
 I chose this backlog: standardized RCHN intake form for all patients across six clinics.  By implementing a standardized intake form in the current planning horizon, we believe this is important so we can  achieve our goal across the six clinics. We want to prevent duplicates from blending medical records and data into our systems.  As per our scope, we need to create a unified system using the same data entries in the form so the same intake form can be used across the six clinics. The delivery condition will ensure a patient can visit an of the six clinic locations and keep their information safe at the same time.
---=
+---
 ### Won't Have Rationale
  I chose this backlog: Customize dashboard colors were excluded for now.  I deferred from my planning horizon because in my opinion the functional value of this item can wait so RCHN should prioritize the form standardization instead. We can use other layouts to inform and avoid delays as we might consider this to wait for our next phase in the project.    
 ---
@@ -49,7 +49,7 @@ I chose this backlog: standardized RCHN intake form for all patients across six 
 ### Persona Connection
 Backlog Story: As a Clinic Intake Coordinator, I want a standardized RCHN intake form for all patients across six clinics. So that I can access RCHN patients' medical information accurately to distinguish each patients' information across six clinics.  
 The story supports and values the same intake form across the six clinics. We want to make sure the system ensures patients can visit all locations and that the patients’ personal date is accurate and is not mismatched with other patients’ information/file.  
-
+---
 ### Scope Connection
 Backlog:  Confirm patient identity and record Backlog: Confirm patient identity and record 
 This backlog requires confirmation of patient identity and record; therefore, it is necessary for our scope to prevent medical records mix ups and so they can be retrieved within the six clinics, so the goal is to separate the files.  As for the developers, confirmation of patent identity should include patient personal data information such as first name, last name, birthdates, etc. So, the system provides accurate information when pulling out from the searches done in the clinics.
