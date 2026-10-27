@@ -38,6 +38,7 @@ The WBS represents the week 5 scope by breaking down the complete cycle of repla
 
 ### Dependency Logic
 I believe the Finish-to-Start dependency could affect the schedule. because transferring data to a new database is a critical path due to the fact that, data validation, testing validation and training can not proceed with an empty system. It is important to understand the sequencing within the process. A 2 week delay can cause milestones to be missed and to an untested system/software.
+
 ---
 ## Activity Schedule
 | ID | Activity | Duration (working days) | Predecessors | Start week |
