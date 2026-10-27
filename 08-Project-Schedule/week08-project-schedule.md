@@ -29,9 +29,9 @@
 
 ### WBS Rationale
 The WBS represents the week 5 scope by breaking down the complete cycle of replacing the RCHN intake patient scheduling system infrastructure into six-clinics, deliverable - oriented phases. Phase 1: initiation - project charter and stakeholders, phase 2: planning - define the scope, phase 3: development - infrastructure, phase 4: deployment - captures critical systems and operations during the launch. As all the above components are needed and accounted for, integration of electronic health records and other external items are still require clarification. Regarding technical software but this can be a separate phase as we move forward with this project.
+
 ---
 ## Task Dependencies
-[List each dependency you identified. Repeat this line for each one.]
 - Predecessor task: Transfer patient data to a new database. → Successor task: Begin system testing on the new database, Dependency type: Finish-to-Start
 - Predecessor task: Start building the core platform infrastructure → Successor task: Start writing the infrastructure technical documentation, Dependency type: Start-to-Start
 - Predecessor task: Finish training the clinic staff on the new system → Successor task: updating the training material archive, Dependency type: Finish-to-Finish
@@ -49,6 +49,7 @@ I believe the Finish-to-Start dependency could affect the schedule. because tran
 
 ### Scheduling Assumptions
 I estimated the duration of the project based on the activities/tasks needed prioritizing them accordingly. Some tasks will need 5 days, other tasks will take 10 days, because they require extra time to be fulfilled. For the tasks who required 5 days, the approach and low priority were taken into consideration assuming that the team will be on top of each week managing the project so uncertain and unpredictable items might delay the project.
+
 ---
 ## Milestones
 - Verify the transferred patient data, The clinic intake manager will know this was met by simply login into their new dashboard system on the final day fo week 3 and access a sample of current active patient files successfully populated in the intake fields.
