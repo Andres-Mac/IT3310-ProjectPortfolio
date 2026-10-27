@@ -45,8 +45,8 @@ I believe the Finish-to-Start dependency could affect the schedule. because tran
 |---|---|---:|---|---:|
 | A | Map Patient Data | 5 Days | None | Week 1 |
 | B | Code/ Building matching patient variables to the new system. | 10 Days | A | Week 2 |
-| C | Verify the transferred patient data | 5 Days | B | Week 3 |
-| D | User Testing | 10 Days | C | Week 4 |
+| C | Verify the transferred patient data | 5 Days | B | Week 4 |
+| D | User Testing | 10 Days | C | Week 5 |
 
 ### Scheduling Assumptions
 I estimated the duration of the project based on the activities/tasks needed prioritizing them accordingly. Some tasks will need 5 days, other tasks will take 10 days, because they require extra time to be fulfilled. For the tasks who required 5 days, the approach and low priority were taken into consideration assuming that the team will be on top of each week managing the project so uncertain and unpredictable items might delay the project.
