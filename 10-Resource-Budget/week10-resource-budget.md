@@ -24,7 +24,30 @@
 - [Resource] — Estimated Cost: $[amount] — Basis: [reason/assumption]
 ---
 ## Estimation Approach
-[Enter your response from Section 2 explaining the estimation technique and labor assumptions.]
+For the RCHN budget, I combined the bottom-up and parametric estimation techniques to align with 14 weeks schedule with specific clinic requirements.
+• Parametric Estimation
+        • Usage: Aligns the team timelines based on the number of clinics (6 clinics)
+        • Example: Adjusts the QA Analyst to 10 weeks and the Training Coordinator to 8 weeks across the 6 clinics.
+        • Fit: Keeps staffing timelines within the strict 14-week project limit.  
+• Bottom-Up Estimation
+        • Usage: Calculates expenses from individual work assignments and targeted risk registry data.
+        • Example: Totals the Developer baseline by multiplying 12 weeks × 35 hours × $130/hr.
+        • Fit: Facilitates accurate pricing for documented risk items, like the $10,000 safety pool for data leaks (50 hours × $200/hr), instead of guessing with flat percentages.
+• Why Top-Down Comparisons Were Rejected
+        • Reason: Broad comparisons miss RCHN's specific training delays and complex databases.
+
+Based on the provided RCHN Project Budget Structure, here are two key labor assumptions that would change if these prove inaccurate.
+
+Assumption 1: Fixed Timeline Caps on Specialty Roles
+
+• The Assumption: The budget assumes that the human labor required for rollout can be tightly restricted to staggered and the QA Analyst is only needed for 10 weeks and the Training Coordinator is only needed for 8 weeks across the 6 clinics, rather than the full 14-week project window.
+• Budget Impact if Inaccurate: If clinic learning delays or deployment bottlenecks force either role to extend to the full 14-week duration, the labor baseline will increase.
+
+Assumption 2: Standard Part-Time Weekly Hours for Delivery
+
+• The Assumption: The budget assumes that the workload for rollout across all 6 clinics can be successfully executed using a part-time framework of 25 hours per week for both the QA Analyst and the Training Coordinator.
+• Budget Impact if Inaccurate: If the workload volume of data discrepancies across the 6 clinics requires these roles to go up to full-time (40 hours per week) to stay within the 14-week limit, costs will jump significantly.
+
 ---
 ## Contingency Reserve
 ### Risk-Based Cost Exposure
