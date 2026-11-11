@@ -24,7 +24,8 @@
 • High-Speed Network Connections: High-speed network connections, they function to extract large legacy databases rapidly without lagging live, daily clinic operations.
 
 ### Third-Party Resources
-- Legacy System Support Contractors,Independent Compliance Auditor, & Contracted Training Experts — Estimated Cost: $20,000 — Basis: • Legacy System Support Contractors: Vendor software specialists or consultants kept available to trace old database linkages and assist the Developer with complex data extractions.  
+- Legacy System Support Contractors,Independent Compliance Auditor, & Contracted Training Experts — Estimated Cost: $20,000 — Basis:
+• Legacy System Support Contractors: Vendor software specialists or consultants kept available to trace old database linkages and assist the Developer with complex data extractions.  
 • Independent Compliance Auditor: An independent compliance auditor responsible for conducting an official legal check prior to launch to ensure complete data protection compliance. 
 • Contracted Training Experts: Assist the training coordinator to train staff for falling-behind clinics to up to speed up quickly. 
 ---
