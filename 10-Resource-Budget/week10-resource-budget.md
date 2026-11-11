@@ -15,13 +15,18 @@
 | Training Coordinator | Provides staff training, tracks clinic and staff readiness, delivering training lessons, and manages the clinic expectations. Work Driving the Need: This role is driven by the Clinic Readiness & Training work package to address delayed staff training at two of the six clinics falling behind schedule. | 8 | 25 | 200 hrs | $80 | $16,000 |
 
 ### Technology Resources
-- [Resource] — Estimated Cost: $[amount] — Basis: [reason/assumption]
+- Database Sandboxes, Automated Testing Software, Security & Encryption Software — Estimated Cost: $10,000 — Basis: • Database Sandboxes: Database Sandboxes: protected virtual test environments utilized to validate the revised database schema.
+• Automated Testing Software: Automated testing software used by the QA Analyst to run fast testing scripts across all six clinics. 
+• Security & Encryption Software: Code inspection software used by the Developer to audit and protect against patients data exposure.
 
 ### Infrastructure Resources
-- [Resource] — Estimated Cost: $[amount] — Basis: [reason/assumption]
+- Cloud Staging & High Speed Network Connections — Estimated Cost: $7,000 — Basis: • Cloud Staging: Protected Cloud Staging Environments used to hold and organize information during pipeline transfers. 
+• High-Speed Network Connections: High-speed network connections, they function to extract large legacy databases rapidly without lagging live, daily clinic operations.
 
 ### Third-Party Resources
-- [Resource] — Estimated Cost: $[amount] — Basis: [reason/assumption]
+- Legacy System Support Contractors,Independent Compliance Auditor, & Contracted Training Experts — Estimated Cost: $20,000 — Basis: • Legacy System Support Contractors: Vendor software specialists or consultants kept available to trace old database linkages and assist the Developer with complex data extractions.  
+• Independent Compliance Auditor: An independent compliance auditor responsible for conducting an official legal check prior to launch to ensure complete data protection compliance. 
+• Contracted Training Experts: Assist the training coordinator to train staff for falling-behind clinics to up to speed up quickly. 
 ---
 ## Estimation Approach
 For the RCHN budget, I combined the bottom-up and parametric estimation techniques to align with 14 weeks schedule with specific clinic requirements.
@@ -51,24 +56,49 @@ Assumption 2: Standard Part-Time Weekly Hours for Delivery
 ---
 ## Contingency Reserve
 ### Risk-Based Cost Exposure
-- Risk [#]: [description] — Potential Cost Exposure: $[amount]
-- Risk [#]: [description] — Potential Cost Exposure: $[amount]
+- Risk Clinic Learning Delays & Launch Deadlines: Extends the Training Coordinator by 6 weeks (from 8 to 14 weeks). — Potential Cost Exposure: $12,000
+- Risk Migration Mismatches & Data Discrepancies: Increases the QA Analyst from part-time (25 hrs/wk) to full-time (40 hrs/wk) for 10 weeks. — Potential Cost Exposure: $13,500
 
-**Recommended Contingency Reserve:** $[amount]
+**Recommended Contingency Reserve:** $25,500
 
-[Explain how the identified risks support your reserve recommendation.]
+ Adjusting the total to a flat $30,000 provides complete coverage for these specific resource extensions while keeping a $1,440 micro-reserve for minor environment fluctuations.
+
 ---
 ## Budget Summary
-**Total Labor Cost:** $[amount]  
-**Total Non-Labor Cost:** $[amount]  
-**Contingency Reserve:** $[amount]  
-**Estimated Project Budget:** $[amount]
+**Total Labor Cost:** $163,100  
+**Total Non-Labor Cost:** $37,000
+**Contingency Reserve:** $30,000 
+**Estimated Project Budget:** $249,672
 
 ### Largest Cost Category
-[Explain which category is largest and why that is appropriate for RCHN.]
+The largest cost category is Human Labor, totaling $182,672 (representing roughly 73% of the entire project budget).
+Why This Is Appropriate for RCHN:
+• Migration Complexity Requires Specialized Talent: Migrating a patient intake and scheduling system across six clinics requires highly specific clinical data mapping, database building, and extensive quality assurance to handle sensitive information smoothly.
+• Mitigation of Active Project Risks: The specialized human roles explicitly address known project bottlenecks. For example, allocating explicit hours for a dedicated Training Coordinator directly combats the learning delays in the two clinics that have fallen behind schedule.
+• Risk Over Automation: Because patient healthcare records require careful manual verification and secure software engineering to prevent active leakage from cloud repositories, the project relies heavily on skilled personnel over automated infrastructure.                                                                        • Structural Optimization: Heavy front-end investment in targeted, specialized labor directly ensures the system meets its clinical readiness goals within a strict 14-week timeline constraint.
+
 ---
 ## Budget Tradeoff Analysis
-[Enter your response from Section 4 explaining what you would analyze before reducing the budget by 10 percent.]
+A 10% cut reduces the budget by $249,672, lowering the project cap from $249,672 to $224,704.80. Before agreeing, I would check the schedule, labor hours, and risk register to protect project quality.
+
+Key Analysis Areas Before Agreement:
+
+• Labor Elasticity: Can we cut specialized hours without breaking the hard 14-week project limit?
+• Reserve Vulnerability: Can the project survive clinic learning delays or database errors without a safety net?
+• Contract Flexibility: Which non-labor costs are locked flat fees versus flexible, usage-based lines?
+
+Two Critical Tradeoffs and Risks
+
+Tradeoff 1: Cutting the Contingency Reserve
+
+• The Action: Shrinking the $30,000 reserve to $5,032.80 to protect baseline labor and tools.
+• The Risk: Immediate budget breach. If data errors or training delays occur, there is no money to fix them, breaking the new cap instantly.
+
+Tradeoff 2: Shortening Labor Timelines
+
+• The Action: Cutting the Developer from 12 to 10 weeks and the QA Analyst from 10 to 8 weeks.
+• The Risk: Low system quality and rollout delays. Rushing database testing causes severe live defects, while less training time stalls deployment across the 6 clinics.
+
 ---
 *NovaTech Consulting | IT 3310 | Governors State University | Fall 2026*
     
